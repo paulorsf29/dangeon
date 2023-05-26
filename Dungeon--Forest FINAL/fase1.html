@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="shortcut icon" href="imagem/icon_floresta.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1ª Fase</title>
+    <script src="fase1.js"></script>
+</head>
+<link rel="stylesheet" href="estilos/fase1.css">
+
+<body style="background-image: url(imagem/fundo_fase1.jpg);">
+
+    <audio autoplay loop id="musica1">
+        <source src="musicas/All Bad Ends All.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="musicaFase1on()" class="botao_som">🔊</button>
+    <button onclick="musicaFase1off()"class="botao_som">🔈</button>
+
+    <a href="menu.html">
+        <button class="botao_voltar">𝐌𝐄𝐍𝐔</button>
+    </a>
+
+    <div id="cmcFase1">
+        <div class="parent">
+                <h3 style="color: white;">"𝑨 𝒖́𝒍𝒕𝒊𝒎𝒂 𝒄𝒐𝒊𝒔𝒂 𝒅𝒆 𝒒𝒖𝒆 𝒎𝒆 𝒍𝒆𝒎𝒃𝒓𝒐.. 𝒆́ 𝒅𝒆 𝒆𝒔𝒕𝒂𝒓 𝒂𝒏𝒅𝒂𝒏𝒅𝒐 𝒑𝒆𝒍𝒂 𝒇𝒍𝒐𝒓𝒆𝒔𝒕𝒂 𝒑𝒂𝒓𝒂 𝒖𝒎𝒂 𝒑𝒆𝒔𝒒𝒖𝒊𝒔𝒂 𝒅𝒆 𝒄𝒂𝒎𝒑𝒐... 𝒎𝒂𝒔 𝒂𝒄𝒂𝒃𝒆𝒊 𝒆𝒔𝒄𝒐𝒓𝒓𝒆𝒈𝒂𝒏𝒅𝒐
+                     𝒆 𝒄𝒂𝒊́ 𝒆𝒎 𝒖𝒎 𝒃𝒖𝒓𝒂𝒄𝒐 𝒒𝒖𝒆 𝒎𝒆 𝒕𝒓𝒐𝒖𝒙𝒆 𝒂𝒕𝒆́ 𝒆𝒔𝒔𝒆 𝒍𝒖𝒈𝒂𝒓 𝒆𝒔𝒕𝒓𝒂𝒏𝒉𝒐..."</h3>
+                <h1>1ª Fase: Lugar Estranho</h1>
+                <strong style="color: white;">ENCONTRE BOTÕES OU CHAVES QUE ABRAM AS PRÓXIMAS PORTAS</strong>
+                <br><br>
+                <button class="botao" onclick="abrirMapa1()">⇝ 𝑪𝑶𝑴𝑬𝑪̧𝑨𝑹 ⇜</button>
+        </div>
+    </div>
+    <div class="mapaDoJogo1">
+        <strong>
+            <pre id="fase1" style="color: yellowgreen; tab-size: 3;"></pre>
+        </strong>
+    </div>
+
+</body>
+
+</html>
+<script src="fase1.js"></script>

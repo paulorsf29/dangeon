@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="shortcut icon" href="imagem/icon_floresta.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fase 2</title>
+    <script src="fase2.js"></script>
+</head>
+<link rel="stylesheet" href="estilos/fase2.css">
+
+<body style="background-image: url(imagem/Fundo_Fase2.jpg); background-size: 100%;">
+    
+    <audio autoplay loop id="musica1">
+        <source src="musicas/Bracing For The Second Wave.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="musicafase2on()" class="botao_som">🔊</button>
+    <button onclick="musicafase2off()"class="botao_som">🔈</button>
+
+    <a href="menu.html">
+        <button class="botao_voltar">𝐌𝐄𝐍𝐔</button>
+    </a>
+    <div class="card_vida">
+           <strong style="color: red;"> Nº de vidas: <label style="color: gold;" id="vidas"></label></strong>
+    </div>
+
+    <div id="cmcFase2">
+        <div class="parent">
+                <h3 style="color: white;">"𝑷𝒂𝒓𝒆𝒄𝒆 𝒒𝒖𝒆 𝒆𝒔𝒕𝒐𝒖 𝒄𝒉𝒆𝒈𝒂𝒏𝒅𝒐 𝒏𝒐 𝒔𝒖𝒃𝒔𝒐𝒍𝒐 𝒅𝒂 𝒇𝒍𝒐𝒓𝒆𝒔𝒕𝒂... 𝒐 𝒄𝒂𝒎𝒊𝒏𝒉𝒐 𝒆́ 𝒍𝒊𝒎𝒊𝒕𝒂𝒅𝒐...
+                     𝒕𝒆𝒓𝒆𝒊 𝒒𝒖𝒆 𝒑𝒂𝒔𝒔𝒂𝒓 𝒑𝒐𝒓 𝒆𝒔𝒔𝒂 𝒈𝒓𝒖𝒕𝒂 𝒔𝒆 𝒂𝒊𝒏𝒅𝒂 𝒒𝒖𝒊𝒔𝒆𝒓 𝒗𝒆𝒓 𝒂 𝒍𝒖𝒛 𝒅𝒐 𝒅𝒊𝒂..."</h5>
+                <h1>2ª Fase: Falsas Esperanças</h1>
+                <strong style="color: white;">ENCONTRE BOTÕES OU CHAVES QUE ABRAM AS PRÓXIMAS PORTAS</strong>
+                <br><br>
+                <button class="botao" onclick="abrirMapa2()">⇝ 𝑪𝑶𝑴𝑬𝑪̧𝑨𝑹 ⇜</button>
+        </div>
+    </div>
+
+    <div class="mapaDoJogo2">
+            <pre id="fase2" style="color: whitesmoke;"></pre>
+    </div>
+</body>
+</html>

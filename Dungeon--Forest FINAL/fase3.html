@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="shortcut icon" href="imagem/icon_floresta.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fase 3</title>
+    <script src="fase3.js"></script>
+</head>
+<link rel="stylesheet" href="estilos/fase3.css">
+
+<body style="background-image: url(imagem/fundo_3.jpg); background-size: 100%;">
+
+    <audio autoplay loop id="musica1">
+        <source src="musicas/Face Your Fear.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="musicaFase3on()" class="botao_som">🔊</button>
+    <button onclick="musicaFase3off()" class="botao_som">🔈</button>
+
+    <a href="menu.html">
+        <button class="botao_voltar">𝐌𝐄𝐍𝐔</button>
+    </a>
+
+    <div class="card_vida">
+            <strong style="color: red;"> Nº de vidas: <label style="color: gold;" id="vidas"></label></strong>
+    </div>
+
+    <div id="cmcFase3">
+        <div class="parent">
+
+            <h3 style="color: white;">"𝙅𝙖́ 𝙣𝙖̃𝙤 𝙨𝙚𝙞 𝙨𝙚 𝙫𝙤𝙪 𝙨𝙖𝙞𝙧, 𝙤 𝙘𝙖𝙢𝙞𝙣𝙝𝙤 𝙚́ 𝙡𝙤𝙣𝙜𝙤,
+                𝙩𝙖𝙡𝙫𝙚𝙯 𝙚𝙪 𝙖𝙥𝙤𝙙𝙧𝙚𝙘̧𝙖 𝙖𝙦𝙪𝙞. 𝙈𝙖𝙨 𝙖𝙡𝙜𝙤 𝙢𝙚 𝙙𝙞𝙯 𝙦𝙪𝙚 𝙟𝙖́ 𝙫𝙤𝙪
+                𝙘𝙝𝙚𝙜𝙖𝙧 𝙖𝙤 𝙛𝙞𝙢 𝙙𝙚𝙨𝙨𝙖 𝙙𝙪𝙣𝙜𝙚𝙤𝙣, 𝙚𝙣𝙩𝙖̃𝙤 𝙣𝙖̃𝙤 𝙥𝙤𝙨𝙨𝙤 𝙙𝙚𝙨𝙞𝙨𝙩𝙞𝙧,
+                𝙙𝙚𝙫𝙤 𝙥𝙚𝙡𝙤 𝙢𝙚𝙣𝙤𝙨 𝙢𝙤𝙧𝙧𝙚𝙧 𝙩𝙚𝙣𝙩𝙖𝙣𝙙𝙤"</h5>
+                <h1>3ª Fase: Uma Luz no Fim do Túnel</h1>
+                <strong style="color: white;">ENCONTRE BOTÕES OU CHAVES QUE ABRAM AS PRÓXIMAS PORTAS</strong>
+                <br><br>
+                <button class="botao" onclick="abrirMapa3()">⇝ 𝑪𝑶𝑴𝑬𝑪̧𝑨𝑹 ⇜</button>
+
+        </div>
+    </div>
+
+    <div class="mapaDoJogo3">
+        <pre id="fase3" style="color: white;"></pre>
+    </div>
+
+</body>
+
+</html>

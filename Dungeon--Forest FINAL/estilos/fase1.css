@@ -1,0 +1,54 @@
+.parent {
+    background-color: rgba(5, 79, 119, 0.702);
+    position: absolute; 
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    border-radius: 15%;
+    text-align: center;
+}
+.card_vida {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    border-radius: 10%;
+    margin-top: 10px;
+}
+.botao {
+    border: none;
+    cursor: pointer;
+    background-color: rgba(52, 84, 84, 0);
+    padding: 15px;
+    border-radius: 10%;
+}
+.mapaDoJogo1 {
+    font-size: 27px;
+    text-align: center;
+}
+.botao:hover {
+    background-color: greenyellow;
+}
+.botao_voltar{
+    border: none;
+    cursor: pointer;
+    background-color: #345454;
+    padding: 10px;
+    border-radius: 10%;
+}
+.botao_voltar:hover{
+    background-color: #7ca2a2;
+}
+.botao_som{
+    border: none;
+    cursor: pointer;
+    background-color: #345454;
+    padding: 10px;
+    border-radius: 10%;
+}
+.botao_som:hover{
+    background-color: rgb(244, 13, 13);
+}

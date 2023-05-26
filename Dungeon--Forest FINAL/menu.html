@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="shortcut icon" href="imagem/icon_floresta.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dungeon Forest</title>
+    <link rel="stylesheet" href="estilos/menu.css">
+</head>
+
+<body style="background-image: url(imagem/menu1.gif);background-size: 100%;">
+    <audio autoplay loop id="musica1">
+        <source src="musicas/Smoked.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="musicaMenuon()" class="botao_som">🔊</button>
+    <button onclick="musicaMenuoff()"class="botao_som">🔈</button>
+    
+    <center>
+        <br><br>
+        <pre style="color: rgb(87, 131, 23);">
+            ████████▄  ███    █▄  ███▄▄▄▄      ▄██████▄     ▄████████  ▄██████▄  ███▄▄▄▄       
+            ███   ▀███ ███    ███ ███▀▀▀██▄   ███    ███   ███    ███ ███    ███ ███▀▀▀██▄     
+            ███    ███ ███    ███ ███   ███   ███    █▀    ███    █▀  ███    ███ ███   ███     
+            ███    ███ ███    ███ ███   ███  ▄███         ▄███▄▄▄     ███    ███ ███   ███     
+            ███    ███ ███    ███ ███   ███ ▀▀███ ████▄  ▀▀███▀▀▀     ███    ███ ███   ███     
+            ███    ███ ███    ███ ███   ███   ███    ███   ███    █▄  ███    ███ ███   ███     
+            ███   ▄███ ███    ███ ███   ███   ███    ███   ███    ███ ███    ███ ███   ███     
+            ████████▀  ████████▀   ▀█   █▀    ████████▀    ██████████  ▀██████▀   ▀█   █▀      
+                                                                                               
+          ▄████████  ▄██████▄     ▄████████    ▄████████    ▄████████     ███        ▄████████ 
+         ███    ███ ███    ███   ███    ███   ███    ███   ███    ███ ▀█████████▄   ███    ███ 
+         ███    █▀  ███    ███   ███    ███   ███    █▀    ███    █▀     ▀███▀▀██   ███    █▀  
+        ▄███▄▄▄     ███    ███  ▄███▄▄▄▄██▀  ▄███▄▄▄       ███            ███   ▀   ███        
+       ▀▀███▀▀▀     ███    ███ ▀▀███▀▀▀▀▀   ▀▀███▀▀▀     ▀███████████     ███     ▀███████████ 
+         ███        ███    ███ ▀███████████   ███    █▄           ███     ███              ███ 
+         ███        ███    ███   ███    ███   ███    ███    ▄█    ███     ███        ▄█    ███ 
+         ███         ▀██████▀    ███    ███   ██████████  ▄████████▀     ▄████▀    ▄████████▀  
+                                 ███    ███                                                    </pre>
+
+        <div class="card">
+            <br><br><br>
+            <a href="fase1.html">
+                <button ondblclick="vai()" class="botao">
+                    <strong>⇝ 𝐈𝐍𝐈𝐂𝐈𝐀𝐑 ⇜</strong>
+                </button>
+            </a>
+            <br>
+            <br>
+            <a href="tutorial.html">
+                <button class="botao">
+                    <strong>⇝ 𝐓𝐔𝐓𝐎𝐑𝐈𝐀𝐋 ⇜</strong>
+                </button>
+            </a>
+            <br>
+            <br>
+            <a href="sair.html">
+                <button class="botao">
+                    <strong>⇝ 𝐒𝐀𝐈𝐑 ⇜</strong>
+                </button>
+            </a>
+        </div>
+    </center>
+</body>
+
+</html>
+<script src="menu.js"></script>

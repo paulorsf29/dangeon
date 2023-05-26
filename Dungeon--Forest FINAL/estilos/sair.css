@@ -1,0 +1,25 @@
+.card_sair {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    border-radius: 10%;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    padding: 15px;
+    border-radius: 10%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #44644c;
+}
