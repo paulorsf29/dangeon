@@ -5,7 +5,10 @@ COMO JOGAR:
 O jogo possui um mecanismo simples de locomossão(W,A,S,D). dentro das fases, o jogador("웃"a) pode encontrar chaves("@̵") que devem ser interagidas clicando "i" em cima dela para abrir portar("▮"). O jogador deve apenas passar por cima dos botões "O" para causar algum efeito. E espinhos(⧼#⧽) irão lhe dar dano e lhe devouverá até o início da fase. teletransportes("<" e ">") lhe levarão de um lado para outro. Lembrando que o jogador deve sempre chegar na última porta
 
 CRIADORES:
-CC1MA - Kalel Henrique Paixao Fonseca de Lima, Paulo Ricardo Silva Fonseca, Pedro Henrique Carneiro Silva
+CC1MA -Paulo Ricardo Silva Fonseca, Pedro Henrique Carneiro Silva
+https://github.com/paulorsf29
+
+https://github.com/pedroh06
 
 CRÉDITOS:
 Faixa: "Smoked"
@@ -27,8 +30,4 @@ Free Download/Stream: https://get.slip.stream/
 Track: "All Bad Ends All"
 Music provided by https://slip.stream/ 
 Free Download/Stream: https://get.slip.stream/hlBNJm
-
-
-https://github.com/paulorsf29
-https://github.com/pedroh06
 
